@@ -10,7 +10,7 @@ const live2d = PIXI.live2d;
     view: document.getElementById("canvas"),
     autoStart: true,
     resizeTo: window,
-    backgroundColor: 0x333333
+    transparent: true
   });
 
   const models = await Promise.all([
